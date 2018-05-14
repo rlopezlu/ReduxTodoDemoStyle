@@ -1,0 +1,29 @@
+.AddTodo{
+  width: 100%;
+  /* background-color: red; */
+}
+
+.AddTodo input{
+  font-size: 2em;
+  border: none;
+  border-radius: 5px;
+  padding: .2em .5em;
+  margin: 0 .5em;
+  width: 50%;
+  box-shadow: 2px 2px 2px #888;
+  color: #666;
+}
+
+.AddTodo button{
+  padding: .2em .5em;
+  color: #666;
+  font-size: 2em;
+  background-color: white;
+  box-shadow: 2px 2px 2px #888;
+  border-radius: 5px;
+  border: none;
+}
+
+.AddTodo button:hover{
+  cursor: pointer;
+}

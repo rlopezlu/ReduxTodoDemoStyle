@@ -1,0 +1,6 @@
+html{
+  background: linear-gradient(to bottom right, #3498db, #2980b9);
+  background-color:  #3498db;
+  height: 100%;
+  box-sizing: border-box;
+}
