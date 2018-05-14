@@ -1,6 +1,6 @@
 .TodoList{
   list-style: none;
   /* background-color: white; */
-  margin: 1em;
+  margin: .5em 1em;
   padding: 1em;
 }
