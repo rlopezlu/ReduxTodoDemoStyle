@@ -1,6 +1,13 @@
 html{
-  background: linear-gradient(to bottom right, #3498db, #2980b9);
+  /* background: linear-gradient(to bottom right, #3498db, #2980b9); */
   background-color:  #3498db;
-  height: 100%;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* min-height: 100%; */
+  box-sizing: border-box;
+}
+
+*{
   box-sizing: border-box;
 }

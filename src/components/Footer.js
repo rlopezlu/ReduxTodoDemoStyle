@@ -6,15 +6,17 @@ import '../styles/Footer.css'
 const Footer = () => (
   <div className="Footer">
     <span>Show: </span>
-    <FilterLink filter={VisibilityFilters.SHOW_ALL}>
-      All
-    </FilterLink>
-    <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>
-      Active
-    </FilterLink>
-    <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>
-      Completed
-    </FilterLink>
+    <div>
+      <FilterLink filter={VisibilityFilters.SHOW_ALL}>
+        All
+      </FilterLink>
+      <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>
+        Active
+      </FilterLink>
+      <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>
+        Completed
+      </FilterLink>
+    </div>
   </div>
 )
 

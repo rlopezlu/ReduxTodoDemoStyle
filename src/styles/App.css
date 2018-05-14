@@ -6,3 +6,9 @@
   background-color: #ecf0f1;
   border-radius: 10px;
 }
+
+@media (max-width: 480px) {
+  .App{
+    width: 90%;
+  }
+}
